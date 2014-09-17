@@ -47,20 +47,6 @@
    <extension
          point="org.eclipse.ui.menus">
       <menuContribution
-            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
-         <menu
-               id="com.kevlarr.easyexport.menus.EEMenu"
-               label="EasyExport"
-               mnemonic="M">
-            <command
-                  commandId="com.kevlarr.easyexport.commands.exportarchive"
-                  icon="icons/UA.png"
-                  id="com.kevlarr.easyexport.menus.exportarchive"
-                  mnemonic="S">
-            </command>
-         </menu>
-      </menuContribution>
-      <menuContribution
             locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
          <toolbar
                id="com.kevlarr.easyexport.toolbars.EEToolbar">
